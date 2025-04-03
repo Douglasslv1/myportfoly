@@ -13,7 +13,7 @@ const Page1 = () => {
   return (
     <div className={Style.container}>
         <div className={Style.BackgroundVideo}>
-            <video src={Video}  loop autoPlay></video>
+            <video src={Video} muted loop autoPlay></video>
         </div>
         <nav className={Style.NavMenu}>
             <li><a href="#">Home</a></li>
